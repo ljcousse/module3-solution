@@ -1,27 +1,81 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Responsive Layout</title>
-<link rel="stylesheet" type="text/css" href="css/style.css">
-</head>
-<body class="row">
-<h1>Our Menu</h1>
-<section class="col-lg-4 col-md-6 col-sm-12">
-  <h2 class="chicken">Chicken</h2>
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque lorem, facilisis eu diam sit amet, consequat vestibulum ligula. Aliquam ut placerat tortor. Sed nibh massa, luctus gravida vulputate ac, varius quis velit. Sed nec feugiat ligula. Curabitur viverra arcu lectus, at pretium tellus porta eu. Donec elementum libero sed mauris pretium, sit amet tristique risus laoreet. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Phasellus quis consectetur est. Donec vel efficitur eros. Nunc mollis lobortis ante nec aliquam.
-</section>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<section class="col-lg-4 col-md-6 col-sm-12">
-  <h2 class="beef">Beef</h2>
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque lorem, facilisis eu diam sit amet, consequat vestibulum ligula. Aliquam ut placerat tortor. Sed nibh massa, luctus gravida vulputate ac, varius quis velit. Sed nec feugiat ligula. Curabitur viverra arcu lectus, at pretium tellus porta eu. Donec elementum libero sed mauris pretium, sit amet tristique risus laoreet. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Phasellus quis consectetur est. Donec vel efficitur eros. Nunc mollis lobortis ante nec aliquam.
-</section>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
-<section class="col-lg-4 col-md-12 col-sm-12">
-  <h2 class="sushi">Sushi</h2>
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque lorem, facilisis eu diam sit amet, consequat vestibulum ligula. Aliquam ut placerat tortor. Sed nibh massa, luctus gravida vulputate ac, varius quis velit. Sed nec feugiat ligula. Curabitur viverra arcu lectus, at pretium tellus porta eu. Donec elementum libero sed mauris pretium, sit amet tristique risus laoreet. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Phasellus quis consectetur est. Donec vel efficitur eros. Nunc mollis lobortis ante nec aliquam.
-</section>
- 
+    <title>Food, LLC</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+<body>
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <h1 class="navbar-brand" href="#">Food, LLC</h1>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+          
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>   
+          </button>
+        </div>
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+          <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
+            <li>
+              <a href="menu-categories.html">
+                 Chicken</a>
+            </li>
+            <li>
+              <a href="#">
+                Sushi</a>
+            </li>
+            <li>
+              <a href="#">
+                Beef</a>
+            </li>
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+      </div><!-- container -->
+    </nav>
+  </header>
+  <div class='row'>
+    <h2 class="text-center">
+    Our Menu
+    </h2>
+    <section class='col-xs-10 container'>
+      <h3 class="text-center">Chicken</h3>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pulvinar placerat lacus quis pharetra. Maecenas tempor efficitur nisi scelerisque condimentum. Morbi metus est, lobortis eget velit id, pellentesque elementum augue. Suspendisse accumsan faucibus consectetur. Sed pharetra varius luctus. Nam sed pretium leo. Sed in maximus orci, nec consectetur sem. Aliquam erat volutpat. Donec nec magna nec ante pharetra faucibus ac eget magna. Morbi ullamcorper tincidunt interdum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In sit amet aliquet mi. Quisque laoreet suscipit quam, nec pharetra purus mollis et. Aliquam aliquam metus at augue egestas venenatis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pulvinar placerat lacus quis pharetra. Maecenas tempor efficitur nisi scelerisque condimentum. Morbi metus est, lobortis eget velit id, pellentesque elementum augue. Suspendisse accumsan faucibus consectetur. Sed pharetra varius luctus. Nam sed pretium leo. Sed in maximus orci, nec consectetur sem. Aliquam erat volutpat. Donec nec magna nec ante pharetra faucibus ac eget magna. Morbi ullamcorper tincidunt interdum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In sit amet aliquet mi. Quisque laoreet suscipit quam, nec pharetra purus mollis et. Aliquam aliquam metus at augue egestas venenatis.
+    </section>
+    <section class='col-xs-10 container'>
+      <h3 class="text-center">Sushi</h3>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pulvinar placerat lacus quis pharetra. Maecenas tempor efficitur nisi scelerisque condimentum. Morbi metus est, lobortis eget velit id, pellentesque elementum augue. Suspendisse accumsan faucibus consectetur. Sed pharetra varius luctus. Nam sed pretium leo. Sed in maximus orci, nec consectetur sem. Aliquam erat volutpat. Donec nec magna nec ante pharetra faucibus ac eget magna. Morbi ullamcorper tincidunt interdum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In sit amet aliquet mi. Quisque laoreet suscipit quam, nec pharetra purus mollis et. Aliquam aliquam metus at augue egestas venenatis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pulvinar placerat lacus quis pharetra. Maecenas tempor efficitur nisi scelerisque condimentum. Morbi metus est, lobortis eget velit id, pellentesque elementum augue. Suspendisse accumsan faucibus consectetur. Sed pharetra varius luctus. Nam sed pretium leo. Sed in maximus orci, nec consectetur sem. Aliquam erat volutpat. Donec nec magna nec ante pharetra faucibus ac eget magna. Morbi ullamcorper tincidunt interdum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In sit amet aliquet mi. Quisque laoreet suscipit quam, nec pharetra purus mollis et. Aliquam aliquam metus at augue egestas venenatis.
+    </section>
+    <section class='col-xs-10 container'>
+      <h3 class="text-center">Beef</h3>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pulvinar placerat lacus quis pharetra. Maecenas tempor efficitur nisi scelerisque condimentum. Morbi metus est, lobortis eget velit id, pellentesque elementum augue. Suspendisse accumsan faucibus consectetur. Sed pharetra varius luctus. Nam sed pretium leo. Sed in maximus orci, nec consectetur sem. Aliquam erat volutpat. Donec nec magna nec ante pharetra faucibus ac eget magna. Morbi ullamcorper tincidunt interdum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In sit amet aliquet mi. Quisque laoreet suscipit quam, nec pharetra purus mollis et. Aliquam aliquam metus at augue egestas venenatis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pulvinar placerat lacus quis pharetra. Maecenas tempor efficitur nisi scelerisque condimentum. Morbi metus est, lobortis eget velit id, pellentesque elementum augue. Suspendisse accumsan faucibus consectetur. Sed pharetra varius luctus. Nam sed pretium leo. Sed in maximus orci, nec consectetur sem. Aliquam erat volutpat. Donec nec magna nec ante pharetra faucibus ac eget magna. Morbi ullamcorper tincidunt interdum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In sit amet aliquet mi. Quisque laoreet suscipit quam, nec pharetra purus mollis et. Aliquam aliquam metus at augue egestas venenatis.
+    </section>
+  </div>
+  
+  <section>
+    
+  </section>
+  
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-3.1.0.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
